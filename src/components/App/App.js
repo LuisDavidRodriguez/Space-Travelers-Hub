@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/navbar/header';
+import Header from '../Navbar/header';
 import './App.css';
 
 const App = () => (
