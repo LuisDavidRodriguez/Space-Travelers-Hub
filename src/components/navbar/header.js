@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
+import { NavLink } from 'react-router-dom';
 import logo from '../../images/logo.png';
-import './header.css';
+import './header.scss';
 
 const Header = () => (
   <>
@@ -8,11 +9,10 @@ const Header = () => (
     <h2 className="header-title"> LV`s ST Hub </h2>
 
     <ul>
-      <li>Missions</li>
-      <li>Rockets</li>
-      <li>My Profile</li>
+      <NavLink to="/Missions" className="Missions">Missions</NavLink>
+      <NavLink to="/Rockets" className="Rockets">Rockets</NavLink>
+      <NavLink to="/MyProfile" className="Profile">My Profile</NavLink>
     </ul>
-
   </>
 );
 
