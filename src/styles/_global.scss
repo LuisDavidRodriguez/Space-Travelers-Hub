@@ -1,3 +1,25 @@
+@use './mixin';
+@use './variables' as v;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: v.$fontFamilyRobotoSlab;
+}
+
+html {
+  font-size: 16px;
+
+  @include mixin.base {
+    font-size: 16px;
+  }
+
+  @include mixin.small {
+    font-size: 16px;
+  }
+}
+
 body {
   margin: 0;
   font-family:
@@ -24,4 +46,10 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
