@@ -1,0 +1,13 @@
+.logoImage {
+  height: 3rem;
+}
+
+.Missions,
+.Rockets,
+.Profile {
+  margin: 5px 5px;
+
+  &.active {
+    background-color: aqua;
+  }
+}
