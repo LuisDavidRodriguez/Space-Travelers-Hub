@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MyProfile from '../MyProfile/MyProfile';
 import Missions from '../Missions/Missions';
 import Rockets from '../Rockets/Rockets';
-import Header from '../Navbar/header';
+import Header from '../Navbar/Header';
 import './App.css';
 
 const App = () => (
