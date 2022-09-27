@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Header from '../Navbar/header';
+import Header from '../Navbar/header.js';
 import MyProfile from '../MyProfile/MyProfile';
 import Missions from '../Missions/Missions';
 import Rockets from '../Rockets/Rockets';
