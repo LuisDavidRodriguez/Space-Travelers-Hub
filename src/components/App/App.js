@@ -4,11 +4,10 @@ import MyProfile from '../MyProfile/MyProfile';
 import Missions from '../Missions/Missions';
 import Rockets from '../Rockets/Rockets';
 import './App.css';
-import NavBar from '../Navbar/NavBar';
+// import NavBar from '../Navbar/NavBar';
 
 const App = () => (
   <BrowserRouter>
-    <NavBar />
     <Routes>
       <Route path="/" element={<Rockets />} />
       <Route path="/Rockets" element={<Rockets />} />
