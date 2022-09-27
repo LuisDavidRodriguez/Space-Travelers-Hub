@@ -4,7 +4,7 @@ import logo from '../../images/logo.png';
 import './header.scss';
 
 const NavBar = () => (
-  <>
+  <div>
     <img className="logoImage" src={logo} alt="logo" />
     <h2 className="header-title"> LV`s ST Hub </h2>
 
@@ -13,7 +13,7 @@ const NavBar = () => (
       <NavLink to="/Rockets" className="Rockets">Rockets</NavLink>
       <NavLink to="/MyProfile" className="Profile">My Profile</NavLink>
     </ul>
-  </>
+  </div>
 );
 
 export default NavBar;
