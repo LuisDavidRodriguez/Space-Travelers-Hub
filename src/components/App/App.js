@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from 'react-router-dom';
-import Header from '../Navbar/header.js';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from '../Navbar/header';
 import MyProfile from '../MyProfile/MyProfile';
 import Missions from '../Missions/Missions';
 import Rockets from '../Rockets/Rockets';
