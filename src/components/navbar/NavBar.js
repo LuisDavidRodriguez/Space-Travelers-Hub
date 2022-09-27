@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../images/logo.png';
 import './header.scss';
 
-const Header = () => (
+const NavBar = () => (
   <>
     <img className="logoImage" src={logo} alt="logo" />
     <h2 className="header-title"> LV`s ST Hub </h2>
@@ -16,4 +16,4 @@ const Header = () => (
   </>
 );
 
-export default Header;
+export default NavBar;
